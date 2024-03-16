@@ -1,0 +1,10 @@
+{
+    "name": "store/global",
+    "description": "global classes",
+    "autoload": {
+        "psr-4": {
+            "Store\\Global\\": "src/"
+        }
+    },
+    "require": {}
+}
