@@ -1,10 +1,13 @@
 <?php
 require __DIR__."/../vendor/autoload.php";
 
-use App\Dog;
+use Src\ATM;
 
-$dog = new Dog();
-$dog->bark();
+
+$atm = new ATM();
+
+$atm->start();
+
 
 
 
